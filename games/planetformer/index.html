@@ -3,19 +3,16 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Planetformer</title>
+    <title>Unity WebGL Player | Planetformer</title>
     <link rel="stylesheet" href="TemplateData/style.css">
     <link rel="shortcut icon" href="TemplateData/favicon.ico" />
     <script src="TemplateData/UnityProgress.js"></script>
   </head>
-  <body class = "template">
-     <nobr>
-      <h1>How to Play:</h1>
-      <p>You are a blue ball and you constantly accelerate towards the cursor. Gather enough speed in order to start orbiting your planet, or to fly to another one</p>
-     </nobr>
-      <div class="template-wrap clear">
+  <body class="template">
+    <div class="template-wrap clear">
       <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="600px" width="960px"></canvas>
       <br>
+      <div class="logo"></div>
       <div class="fullscreen"><img src="TemplateData/fullscreen.png" width="38" height="38" alt="Fullscreen" title="Fullscreen" onclick="SetFullscreen(1);" /></div>
       <div class="title">Planetformer</div>
     </div>
@@ -26,10 +23,10 @@
     compatibilitycheck: null,
     backgroundColor: "#222C36",
     splashStyle: "Light",
-    dataUrl: "Release/WebGL3.data",
-    codeUrl: "Release/WebGL3.js",
-    asmUrl: "Release/WebGL3.asm.js",
-    memUrl: "Release/WebGL3.mem",
+    dataUrl: "Release/WebGL4.data",
+    codeUrl: "Release/WebGL4.js",
+    asmUrl: "Release/WebGL4.asm.js",
+    memUrl: "Release/WebGL4.mem",
   };
 </script>
 <script src="Release/UnityLoader.js"></script>
